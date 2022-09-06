@@ -1,5 +1,5 @@
 TARGET=./build
-ARCHS=amd64 386
+ARCHS=arm64
 LDFLAGS="-s -w"
 GCFLAGS="all=-trimpath=$(shell pwd)"
 ASMFLAGS="all=-trimpath=$(shell pwd)"
